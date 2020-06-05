@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ask stuff</title>
+    
+    <link rel="icon" href="assets/fonts/favicon.svg" type="image/svg" sizes="16x16">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.12.0/firebase-database.js"></script>
+    <script src="assets/js/script.js"></script>
+
+</head>
+
+<body id="main">    
+<div class="outer">
+    <div class="middle">
+        <div class="inner">
+            <div class="card" id="question">
+                <div class="card-body">
+                    <h1 class="text-dark">ask stuff</h1>
+                    <p class="text-muted">ask some stuff to <a href="https://shubhro.in">shubhro</a>, please<i class="em em-point_down" aria-role="presentation" aria-label="WHITE DOWN POINTING BACKHAND INDEX"></i></p>
+
+                    <form id="mainInput">
+                        <textarea class="form-control shadow" rows="3" placeholder="question" autofocus="" id="ask"></textarea>
+                        <input class="form-control shadow" type="text" placeholder="anonymous" id="name"> 
+                        <small class="form-text text-muted">optional name</small>                        
+                    </form>
+                    <button class="btn btn-success btn-block btn-lg" id="submitResponse">Submit Question</button>                       
+                    
+                </div>
+            </div>
+            <p id="other"><a href="response.html">view other questions</a></p>
+        </div>
+    </div>
+</div>
+
+</body>
+
+</html>

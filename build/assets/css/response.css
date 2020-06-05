@@ -1,0 +1,45 @@
+@media (min-width: 768px) {
+  #main {
+    width:50%;
+  }
+}
+
+@media (min-width: 992px) {
+  #main {
+    width:30%;
+  }
+}
+
+
+/*font*/
+@font-face {
+  font-family: Inter;
+  src: url(../../assets/fonts/Inter-Medium.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(../../assets/fonts/Inter-SemiBold.ttf);
+}
+
+
+.question {
+  margin-top:25px;
+  border-style:none;
+  box-shadow:0px 3px 2.5px #dae7f4;
+  font-family:inter;
+}
+
+#main {
+  margin-top:55px;
+  height:100%;
+  margin-bottom:60px;
+}
+
+body {
+  background-color:#f1f7fc;
+}
+
+h1 {
+  font-family:inter;
+  color:#184e88;
+}
