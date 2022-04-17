@@ -56,7 +56,7 @@ h1{
 }
 
 #submitResponse {
-  margin-top:35px;
+    margin-top:35px;
   background: rgb(40,167,69);
   background: linear-gradient(0deg, #28a745 0%, #4fdf70 100%);
 }
@@ -99,4 +99,31 @@ h1{
   font-size: 18px;
   font-family: inter;
 }
+
+.paddingg{
+  padding: 7000000000000000px;
+}
+
+.view {
+    text-align: center;
+  /*box-shadow:0px 6px 4.5px #dae7f4;*/
+  border-radius:9px;
+  width: 290px !important;
+  color: #9cadcc00 !important;
+  /*background-color: *white;*/
+  border: #5e6e8d52 3px solid;
+  padding: 10px;
+  padding-left: auto;
+  padding-right: auto;
+  font-size: x-large;
+  display: flex;
+  margin-bottom: auto;
+  justify-content: center;
+}
+
+a:link, a:visited {
+  background-color: #f4433600;
+  color: #565f7d80;
+}
+
 
